@@ -3,16 +3,19 @@
   "version": "0.0.1",
   "description": "Models for Salespalm",
   "main": "models/index.d.ts",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Salespalm/models.git"
+    "url": "git+https://github.com/Salespalm/models.git"
   },
   "keywords": [
     "salespalm",
     "salespalm-models"
   ],
   "author": "Leaf Inc.",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Salespalm/models/issues"
+  },
+  "homepage": "https://github.com/Salespalm/models#readme"
 }
