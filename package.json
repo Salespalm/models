@@ -2,7 +2,7 @@
   "name": "@salespalm/models",
   "version": "0.0.1",
   "description": "Models for Salespalm",
-  "main": "index.d.ts",
+  "main": "models/index.d.ts",
   "scripts": {
   },
   "repository": {
