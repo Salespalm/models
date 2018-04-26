@@ -1,8 +1,8 @@
 {
   "name": "@salespalm/models",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Models for Salespalm",
-  "main": "models/index.d.ts",
+  "main": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
