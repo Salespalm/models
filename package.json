@@ -3,20 +3,22 @@
   "version": "0.0.1",
   "description": "Models for Salespalm",
   "main": "models/index.d.ts",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Salespalm/models.git"
   },
   "keywords": [
     "salespalm",
-    "salespalm-models"
+    "salespalm",
+    "models"
   ],
-  "author": "Leaf Inc.",
+  "author": "teamleaf <teamleaf.dev@gmail.com> (http://www.salespalm.co.kr)",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/Salespalm/models/issues"
   },
-  "homepage": "https://github.com/Salespalm/models#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/Salespalm/models#readme"
 }
