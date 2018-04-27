@@ -5,6 +5,7 @@ import {ICompany} from './company';
 import {IBranchOffice} from './branch-office';
 import {IPoint} from './point';
 import {IMembershipPayment} from './membership-payment';
+import {IIncentiveHistory} from './incentive-history';
 
 export declare type TRole = 'admin' | 'broker' | 'company' | 'regular' | 'branch_office' | 'staff';
 export declare type TAuthorization = 'email' | 'self';
