@@ -1,1 +1,2 @@
-## Salespalm Models
+## @salespalm/models
+

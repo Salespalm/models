@@ -4,12 +4,11 @@ import {IUserSetting} from './user-setting';
 import {ICompany} from './company';
 import {IBranchOffice} from './branch-office';
 import {IPoint} from './point';
+import {IMembershipPayment} from './membership-payment';
 
 export declare type TRole = 'admin' | 'broker' | 'company' | 'regular' | 'branch_office' | 'staff';
 export declare type TAuthorization = 'email' | 'self';
 export declare type TSex = 'M' | 'F';
-
-
 
 export interface IUser extends IModel {
   readonly id?: number;
@@ -41,5 +40,5 @@ export interface IUser extends IModel {
   recommendees?: IUser[];
   point?: IPoint;
   membershipPayments?: IMembershipPayment[];
-
+  incentiveHistories?: IIncentiveHistory[];
 }
