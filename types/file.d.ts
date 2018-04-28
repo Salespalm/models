@@ -1,8 +1,8 @@
 export interface IFile {
-  readonly url?: string;
-  readonly createdAt?: Date;
+  readonly url?: string;      // 파일의 URL
+  readonly createdAt?: Date;  // 파일 생성일
 
-  filename?: string;
-  mimeType?: string;
-  bucket?: string;
+  filename?: string;  // 파일 이름
+  mimeType?: string;  // 파일의 mime type
+  bucket?: string;    // 파일이 등록된 s3 스토리지의 버킷
 }
