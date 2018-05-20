@@ -1,9 +1,12 @@
 export interface IInclude {
-  model: any;
-  as: string;
+  model?: any;
+  as?: string;
   where?: any;
   required?: boolean;
-  include: IInclude[];
+  attributes?: any | any[];
+  all?: boolean;
+  paranoid?: boolean;
+  include?: Array<IInclude | string>;
 }
 
 export interface ISortable {
@@ -13,7 +16,7 @@ export interface ISortable {
 
 export interface IParams {
   where?: any;
-  include?: IInclude[];
+  include?: Array<IInclude | string>;
   order?: Array<Array<ISortable | string>>;
   page?: number;
   limit?: number;
