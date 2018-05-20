@@ -43,3 +43,4 @@ export * from './types/user-push-token';
 export * from './types/user-setting';
 export * from './types/version';
 export * from './types/params';
+export * from './types/response';
