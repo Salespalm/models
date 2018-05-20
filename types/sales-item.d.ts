@@ -10,7 +10,6 @@ import {ISalesItemDescriptionImage} from './sales-item-description-image';
 import {ISalesItemAccount} from './sales-item-account';
 import {ISalesCategoryLv1, ISalesCategoryLv2} from './sales-category';
 
-
 export interface ISalesItem extends IModel {
   readonly id?: number;
   readonly createdAt?: Date;

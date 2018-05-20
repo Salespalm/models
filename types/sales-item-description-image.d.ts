@@ -1,5 +1,3 @@
-import {IModel} from './model';
-
 export interface ISalesItemDescriptionImage {
   url: string;
 

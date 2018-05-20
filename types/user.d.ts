@@ -1,5 +1,5 @@
 import {IModel} from './model';
-import IUserImage from './user-image';
+import {IUserImage} from './user-image';
 import {IUserSetting} from './user-setting';
 import {ICompany} from './company';
 import {IBranchOffice} from './branch-office';
