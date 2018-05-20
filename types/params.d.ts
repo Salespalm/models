@@ -17,6 +17,7 @@ export interface IParams {
   order?: Array<Array<ISortable | string>>;
   page?: number;
   limit?: number;
+  offset?: number;    // Not use client
   lastPage?: number;
   total?: number;
 }
