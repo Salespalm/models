@@ -1,6 +1,6 @@
 export interface IInclude {
-  model?: any;
-  as?: string;
+  model: any;
+  as: string;
   where?: any;
   required?: boolean;
   attributes?: any | any[];
