@@ -37,6 +37,7 @@ export * from './types/sales-payment';
 export * from './types/sales-review';
 export * from './types/sales-setting';
 export * from './types/simple-response';
+export * from './types/sms-authorization';
 export * from './types/user';
 export * from './types/user-image';
 export * from './types/user-push-token';
