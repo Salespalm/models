@@ -1,6 +1,6 @@
 export interface IFile {
-  readonly url?: string;      // 파일의 URL
-  readonly createdAt?: Date;  // 파일 생성일
+  url?: string;      // 파일의 URL
+  createdAt?: Date;  // 파일 생성일
 
   filename?: string;  // 파일 이름
   mimeType?: string;  // 파일의 mime type
