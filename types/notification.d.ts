@@ -10,3 +10,14 @@ export interface INotificationData {
   notificationType: TNotificationType;
   mobilePage?: TMobilePage;
 }
+
+export interface INotification {
+  title: string;
+  body: string;
+}
+
+export interface IFCMObject {
+  to: string;
+  notification: INotification;
+  data: INotificationData;
+}
