@@ -45,3 +45,4 @@ export * from './types/user-setting';
 export * from './types/version';
 export * from './types/params';
 export * from './types/response';
+export * from './types/notification';
