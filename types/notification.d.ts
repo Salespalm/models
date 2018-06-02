@@ -16,7 +16,7 @@ export interface INotification {
   body: string;
 }
 
-export interface IFCMObject {
+export interface IFcmMessage {
   to: string;
   notification: INotification;
   data: INotificationData;
