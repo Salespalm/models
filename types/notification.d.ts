@@ -12,10 +12,10 @@ export interface INotificationData {
 }
 
 export interface INotification {
+  [key: string]: any;
   title: string;
   body: string;
   sound: string;
-  count: number;
 }
 
 export interface IFcmMessage {
