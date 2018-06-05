@@ -1,5 +1,5 @@
 export interface IUserPushMessage {
-  readonly id?: number;
+  readonly id?: string;
   readonly createdAt?: Date;
 
   message: string;
