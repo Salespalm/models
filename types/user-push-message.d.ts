@@ -3,7 +3,7 @@ export interface IUserPushMessage {
   readonly createdAt?: Date;
 
   message: string;
-  data: any;
-  confirm: boolean;
+  data?: any;
+  confirm?: boolean;
   userId?: number;
 }
