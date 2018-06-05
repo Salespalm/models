@@ -4,11 +4,14 @@ export declare type TNotificationType =
 export declare type TMobilePage =
   'RecommendeeListPage';
 
+export declare type TBrowserPage = '';
+
 export interface INotificationData {
   [key: string]: any;
 
   notificationType: TNotificationType;
   mobilePage?: TMobilePage;
+  browserPage?: TBrowserPage;
 }
 
 export interface INotification {
