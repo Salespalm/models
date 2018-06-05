@@ -12,6 +12,8 @@ export interface INotificationData {
   notificationType: TNotificationType;
   mobilePage?: TMobilePage;
   browserPage?: TBrowserPage;
+  userPushMessageId?: string;
+  salesPalmPUshMessageId?: number;
 }
 
 export interface INotification {
