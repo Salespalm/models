@@ -5,7 +5,7 @@ export interface IUserMessage {
   readonly createdAt?: Date;
 
   message: string;
-  data?: any;
+  data?: IMessageData;
   confirm?: boolean;
   userId?: number;
 }

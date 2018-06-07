@@ -1,4 +1,7 @@
-export declare type TMessageType = 'add recommendee';
+export declare type TMessageType =
+  'add-recommendee' // 추천가입
+  | 'request-sales' // 영업신청
+  ;
 
 export declare type TMobileAppLink = 'RecommendeeListPage';
 export declare type THomepageLink = '';
