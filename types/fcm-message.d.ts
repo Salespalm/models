@@ -9,8 +9,13 @@ export interface INotification {
   badge?: number;
 }
 
+export interface IPushMessageData extends IMessageData {
+  userMessageId?: string;
+  salesPalmMessageId?: number;
+}
+
 export interface IFcmMessage {
   to: string;
   notification: INotification;
-  data: IMessageData;
+  data: IPushMessageData;
 }

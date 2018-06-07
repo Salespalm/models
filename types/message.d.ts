@@ -16,6 +16,5 @@ export interface IMessageData {
   [key: string]: any;
   notificationType: TMessageType;
   appLink?: IMessageAppLink;
-  userMessageId?: string;
-  salesPalmMessageId?: number;
 }
+
