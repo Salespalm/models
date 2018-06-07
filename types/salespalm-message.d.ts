@@ -3,5 +3,6 @@ export interface ISalespalmMessage {
   readonly createdAt?: number;
 
   message: string;
+  messageType: string;
   data?: any;
 }

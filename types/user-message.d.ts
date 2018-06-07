@@ -1,10 +1,11 @@
-import {IMessageData} from './message';
+import {IMessageData, TMessageType} from './message';
 
 export interface IUserMessage {
   readonly id?: string;
   readonly createdAt?: Date;
 
   message: string;
+  messageType: TMessageType;
   data?: IMessageData;
   confirm?: boolean;
   userId?: number;

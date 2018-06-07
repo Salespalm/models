@@ -17,7 +17,6 @@ export interface IMessageAppLink {
 
 export interface IMessageData {
   [key: string]: any;
-  notificationType: TMessageType;
   appLink?: IMessageAppLink;
 }
 
