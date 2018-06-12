@@ -10,7 +10,15 @@ import {IMileageOfMonth} from './mileage-of-month';
 import {IPointOfMonth} from './point-of-month';
 import {ISalesItem} from './sales-item';
 
-export declare type TRole = 'admin' | 'broker' | 'company' | 'regular' | 'branch_office' | 'staff';
+export declare type TRole =
+  'admin'             // 관리자
+  | 'broker'          // 중개회원
+  | 'company'         // 업체회원
+  | 'general'         // 일반회원
+  | 'regular'         // 정회원
+  | 'branch_office'   // 지사회원
+  | 'staff';          // 직원
+
 export declare type TAuthorization = 'email' | 'self';
 export declare type TSex = 'M' | 'F';
 
