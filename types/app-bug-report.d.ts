@@ -14,5 +14,5 @@ export interface IAppBugReport extends IModel {
   userId?: number;      // 버그 레포트를 작성한 회원의 아이디
 
   // associations
-  user: IUser;          // 버그 레포트를 작성한 회원 정보
+  user?: IUser;         // 버그 레포트를 작성한 회원 정보
 }
