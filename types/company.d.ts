@@ -29,7 +29,7 @@ export interface ICompany {
   managerPhone?: string;    // 담당자 연락처
 
   // foreign keys
-  userId?: string;          // 업체를 등록한 회원의 아이디
+  userId?: number;          // 업체를 등록한 회원의 아이디
 
   // associations
   user?: IUser;             // 업체를 등록한 회원 정보
