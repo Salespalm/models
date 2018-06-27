@@ -15,6 +15,7 @@ export interface ISortable {
 }
 
 export interface IParams {
+  [key: string]: any;
   where?: any;
   include?: Array<IInclude>;
   order?: Array<Array<ISortable | string>>;
