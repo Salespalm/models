@@ -1,6 +1,6 @@
-import {IFile} from './file';
+export interface INoticeContentImage {
+  url: string;
 
-export interface INoticeContentImage extends IFile {
   // foreign keys
   noticeId?: number;
 }

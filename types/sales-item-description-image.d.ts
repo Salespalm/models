@@ -1,6 +1,5 @@
-import {IFile} from './file';
-
-export interface ISalesItemDescriptionImage extends IFile {
+export interface ISalesItemDescriptionImage {
+  url: string;
 
   // foreign keys
   itemId?: number;
