@@ -22,6 +22,7 @@ export interface ISalesItem extends IModel {
   minCommission?: number;
   maxCommission?: number;
   allowance?: boolean;
+  homepage?: string;
 
   // foreign keys
   userId?: number;
