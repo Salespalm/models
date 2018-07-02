@@ -45,4 +45,5 @@ export interface ISalesItem extends IModel {
   // extra fields
   favorite?: boolean;
   rating?: number | null | undefined;
+  reviewCount?: number | null | undefined;
 }
