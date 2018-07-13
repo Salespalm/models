@@ -3,6 +3,7 @@ export * from './types/app-bug-report';
 export * from './types/biz-license';
 export * from './types/bonus-mileage-setting';
 export * from './types/branch-office';
+export * from './types/category';
 export * from './types/company';
 export * from './types/favorite-sales-item';
 export * from './types/fcm-message';
