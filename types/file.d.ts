@@ -1,4 +1,6 @@
-export interface IFile {
+import {IModel} from './model';
+
+export interface IFile extends IModel {
   url?: string;      // 파일의 URL
   createdAt?: Date;  // 파일 생성일
 
