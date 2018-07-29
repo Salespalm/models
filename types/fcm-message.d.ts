@@ -1,3 +1,5 @@
+import { TMessageType } from './message';
+
 export interface INotification {
   [key: string]: any;
   title?: string;
@@ -8,6 +10,7 @@ export interface INotification {
 
 export interface IPushMessageData {
   [key: string]: any;
+  notificationType: TMessageType;
   userMessageId?: string;
   salesPalmMessageId?: number;
 }
