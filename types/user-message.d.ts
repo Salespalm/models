@@ -1,4 +1,4 @@
-import {IMessageData, TMessageType} from './message';
+import { TMessageType } from './message';
 
 export interface IUserMessage {
   readonly id?: string;
@@ -6,15 +6,7 @@ export interface IUserMessage {
 
   message: string;
   messageType: TMessageType;
-  data?: IMessageData;
+  data?: any;
   confirm?: boolean;
   userId?: number;
 }
-
-// export interface IRecommendeeMessageData extends IMessageData {
-//   recommendee: number;  // 추천한 사람의 아이디
-// }
-//
-// export interface IRecommendeeMessage extends IUserMessage {
-//   data: IRecommendeeMessageData;
-// }

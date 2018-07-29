@@ -1,6 +1,3 @@
-import {IMessageData} from './message';
-
-
 export interface INotification {
   [key: string]: any;
   title?: string;
@@ -9,7 +6,8 @@ export interface INotification {
   badge?: number;
 }
 
-export interface IPushMessageData extends IMessageData {
+export interface IPushMessageData {
+  [key: string]: any;
   userMessageId?: string;
   salesPalmMessageId?: number;
 }
