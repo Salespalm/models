@@ -9,6 +9,7 @@ export * from './types/favorite-sales-item';
 export * from './types/fcm-message';
 export * from './types/file';
 export * from './types/image';
+export * from './types/incentive';
 export * from './types/incentive-history';
 export * from './types/language';
 export * from './types/mail-authorization';
