@@ -1,7 +1,10 @@
-import {IModel} from './model';
+import { IModel } from './model';
 
-export interface IFile extends IModel {
-  url?: string;      // 파일의 URL
+export interface IUrlLike {
+  url?: string;
+}
+
+export interface IFile extends IModel, IUrlLike {
   createdAt?: Date;  // 파일 생성일
 
   filename?: string;  // 파일 이름
