@@ -9,6 +9,7 @@ import {IIncentiveHistory} from './incentive-history';
 import {IMileageOfMonth} from './mileage-of-month';
 import {IPointOfMonth} from './point-of-month';
 import {ISalesItem} from './sales-item';
+import { IUserAddressBook } from './user-address-book';
 
 export declare type TRole =
   'admin'             // 관리자
@@ -57,4 +58,5 @@ export interface IUser extends IModel {
   pointOfMonth?: IPointOfMonth;
   favorite?: ISalesItem;
   favorites?: ISalesItem[];
+  addresses?: IUserAddressBook[];
 }

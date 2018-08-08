@@ -21,6 +21,8 @@ export * from './types/model';
 export * from './types/notice';
 export * from './types/notice-content-image';
 export * from './types/notice-image';
+export * from './types/open-palm';
+export * from './types/open-palm-reply';
 export * from './types/point';
 export * from './types/point-of-month';
 export * from './types/region';
