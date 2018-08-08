@@ -5,5 +5,5 @@ export interface IUserAddressBook {
   zipCode: string;
 
   // foreign keys
-  userId?: string;
+  userId?: number;
 }
