@@ -1,6 +1,7 @@
 import { IOpenPalmReply } from './open-palm-reply';
 import { ISalesCategoryLv1, ISalesCategoryLv2 } from './sales-category';
 import { IUser } from './user';
+import { ISales } from './sales';
 
 export interface IOpenPalm {
   readonly id?: string;
@@ -14,10 +15,13 @@ export interface IOpenPalm {
   userId?: number;
   categoryLv1Id?: number;
   categoryLv2Id?: number;
+  salesId?: number;
 
   // associations
   user?: IUser;
-  replies?: IOpenPalmReply[];
   categoryLv1?: ISalesCategoryLv1;
   categoryLv2?: ISalesCategoryLv2;
+  sales?: ISales;
+
+  replies?: IOpenPalmReply[];
 }
