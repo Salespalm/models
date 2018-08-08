@@ -7,6 +7,7 @@ export interface ISalesItemOption {
 
   name: string;
   priceRange: [number, number];
+  sequence: number;
 
   // foreign keys
   itemId?: number;
