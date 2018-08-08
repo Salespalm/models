@@ -1,4 +1,5 @@
 import { IUser } from './user';
+import { IOpenPalm } from './open-palm';
 
 export interface IOpenPalmReply {
   readonly id?: string;
@@ -6,9 +7,10 @@ export interface IOpenPalmReply {
   reply?: string;
 
   // foreign keys
+  openPalmId?: string;
   fromId?: number;
-  openPalmId?: number;
 
   // associations
+  openPalm: IOpenPalm;
   from?: IUser;
 }
