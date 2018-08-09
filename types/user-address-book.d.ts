@@ -1,9 +1,9 @@
 export interface IUserAddressBook {
   readonly id?: number;
   readonly usedDate?: Date;
-  basicAddress: string;
-  detailAddress: string;
   zipCode: string;
+  basicAddress: string;
+  detailAddress?: string;
 
   // foreign keys
   userId?: number;
