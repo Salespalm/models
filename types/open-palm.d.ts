@@ -9,7 +9,7 @@ export interface IOpenPalm {
 
   title?: string;
   description?: string;
-  close?: boolean;      // 업체를 선택한 경우 true 로 변경
+  closed?: boolean;      // 업체를 선택한 경우 true 로 변경
   country?: string;
   state?: string;
   city?: string;
