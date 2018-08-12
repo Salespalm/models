@@ -22,6 +22,9 @@ export interface IOpenPalm {
   categoryLv1?: ISalesCategoryLv1;
   categoryLv2?: ISalesCategoryLv2;
   sales?: ISales;
+  country?: string;
+  state?: string;
+  city?: string;
 
   replies?: IOpenPalmReply[];
 }
