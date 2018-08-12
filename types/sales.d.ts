@@ -28,7 +28,7 @@ export interface ISalesCounter {
 
 // 영업에 대한 계산서 항목
 export interface ISalesBill {
-  readonly id?: number;
+  id?: number;
 
   name: string;   // 항목 이름
   price: number;  // 가격
