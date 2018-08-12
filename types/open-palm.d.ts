@@ -10,8 +10,9 @@ export interface IOpenPalm {
   title?: string;
   description?: string;
   close?: boolean;      // 업체를 선택한 경우 true 로 변경
-  sales?: ISales;
   country?: string;
+  state?: string;
+  city?: string;
   consumerName?: string;
   consumerPhone?: string;
 
@@ -25,6 +26,6 @@ export interface IOpenPalm {
   user?: IUser;
   categoryLv1?: ISalesCategoryLv1;
   categoryLv2?: ISalesCategoryLv2;
+  sales?: ISales;
   replies?: IOpenPalmReply[];
-  state?: string;
 }
