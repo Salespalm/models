@@ -21,6 +21,11 @@ export declare type TMessageType =
   | 'succeed-sales' // 영업 성공 -> 중개회원에게
   | 'request-refund-sales' // 환불 요청 -> 관리자에게
   | 'refund-sales'  // 환불 -> 업체회원에게
+  /**
+   * 오픈팜 관련
+   */
+  | 'register-open-palm-reply'
+  | 'select-open-palm-reply'
   /*
    * 결제 관련
    */
