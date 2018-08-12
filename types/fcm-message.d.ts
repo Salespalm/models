@@ -10,7 +10,7 @@ export interface INotification {
 
 export interface IPushMessageData {
   [key: string]: any;
-  notificationType: TMessageType;
+  notificationType?: TMessageType;
   userMessageId?: string;
   salesPalmMessageId?: number;
 }
