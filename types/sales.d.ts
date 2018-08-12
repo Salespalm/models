@@ -60,7 +60,7 @@ export interface ISales extends IModel {
   status?: TSalesStatus;  // 영업 진행 상태
   totalPrice?: number;    // 총 영업 거래 금액
 
-  totalCommissionVAT?: number;  // 수수료 지급 총액(VAT 포함)
+  totalCommissionWithVAT?: number;  // 수수료 지급 총액(VAT 포함)
   totalCommission?: number;     // 수수료 지급 총액(VAT 미포함, 이 값으로 포인트와 마일리지 분배)
 
   // foreign keys
