@@ -24,7 +24,8 @@ export interface IOpenPalm {
   sales?: ISales;
   country?: string;
   state?: string;
-  city?: string;
+  consumerName?: string;
+  consumerPhone?: string;
 
   replies?: IOpenPalmReply[];
 }
