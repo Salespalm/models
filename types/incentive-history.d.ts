@@ -17,7 +17,8 @@ export declare type TIncentiveHistoryStatus =
   | 'refund';       // 환불 상태
 
 export declare type TIncentiveHistoryRefModelName =
-  'Sales';  // ISales 모델(DB 에서는 Sales 모델)
+    'MembershipPayment'
+  | 'Sales';  // ISales 모델(DB 에서는 Sales 모델)
 
 export interface IIncentiveHistoryRef {
   modelName: TIncentiveHistoryRefModelName; // 모델의 이름

@@ -18,7 +18,7 @@ export interface IMembershipPayment extends IModel {
   payer?: string;
   period?: [Date ,Date];
   expired?: boolean;
-  status?: string;
+  status?: TMembershipPaymentStatus;
   paymentDeadline?: Date;
   payedDate?: Date;
   refundDeadline?: Date;
