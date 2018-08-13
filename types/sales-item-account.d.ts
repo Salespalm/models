@@ -1,8 +1,8 @@
 import {IModel} from './model';
 
 export interface ISalesItemAccount extends IModel {
-  readonly id?: number;
-  readonly createdAt?: Date;
+  id?: number;
+  createdAt?: Date;
 
   bank?: string;
   number?: string;

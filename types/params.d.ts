@@ -18,7 +18,7 @@ export interface IParams {
   [key: string]: any;
   where?: any;
   include?: Array<IInclude>;
-  order?: Array<Array<ISortable | string>> | any;
+  order?: Array<Array<ISortable | string>>;
   page?: number;
   limit?: number;
   offset?: number;    // Not use client
