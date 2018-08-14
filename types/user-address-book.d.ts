@@ -1,6 +1,6 @@
 export interface IUserAddressBook {
   readonly id?: number;
-  readonly usedDate?: Date;
+  readonly usedAt?: Date;
   zipCode: string;
   basicAddress: string;
   detailAddress?: string;
