@@ -1,4 +1,4 @@
-import {IModel} from './model';
+import { IModel } from './model';
 
 export declare type TUserSettingName = 'AUTO_REGULAR_PAYMENT';
 

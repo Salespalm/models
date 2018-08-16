@@ -1,4 +1,4 @@
-import {IFile} from './file';
+import { IFile } from './file';
 
 export interface IImage extends IFile {
   small?: string;  // 작은 크기의 이미지 파일 url(폭과 높이 중 가장 큰 쪽을 320px로 맞춤)

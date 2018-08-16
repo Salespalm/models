@@ -1,14 +1,14 @@
-import {IModel} from './model';
-import {IUser} from './user';
-import {ISalesItemImage} from './sales-item-image';
-import {ISalesItemOption} from './sales-item-option';
-import {ISales} from './sales';
-import {ISalesReview} from './sales-review';
-import {ISalesItemRegion} from './sales-item-region';
-import {ISalesItemTag} from './sales-item-tag';
-import {ISalesItemDescriptionImage} from './sales-item-description-image';
-import {ISalesItemAccount} from './sales-item-account';
-import {ISalesCategoryLv1, ISalesCategoryLv2} from './sales-category';
+import { IModel } from './model';
+import { IUser } from './user';
+import { ISalesItemImage } from './sales-item-image';
+import { ISalesItemOption } from './sales-item-option';
+import { ISales } from './sales';
+import { ISalesReview } from './sales-review';
+import { ISalesItemRegion } from './sales-item-region';
+import { ISalesItemTag } from './sales-item-tag';
+import { ISalesItemDescriptionImage } from './sales-item-description-image';
+import { ISalesItemAccount } from './sales-item-account';
+import { ISalesCategoryLv1, ISalesCategoryLv2 } from './sales-category';
 
 export interface ISalesItem extends IModel {
   readonly id?: number;

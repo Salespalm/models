@@ -1,5 +1,5 @@
-import {IUser} from './user';
-import {ISalesItem} from './sales-item';
+import { IUser } from './user';
+import { ISalesItem } from './sales-item';
 
 export interface ISalesItemAccusation {
   readonly id?: number;

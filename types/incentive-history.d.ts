@@ -1,7 +1,7 @@
-import {IUser} from './user';
+import { IUser } from './user';
 
 export declare type TIncentiveHistory =
-  'sales_point'                   // 직접 중개 포인트
+    'sales_point'                 // 직접 중개 포인트
   | 'recommender_sales_mileage'   // 중개 추천인에 의한 마일리지
   | 'franchise_sales_mileage'     // 가맹 추천인에 의한 마일리지
   | 'regular_mileage'             // 정회원 구매 시 추천 1대에게 주는 마일리지

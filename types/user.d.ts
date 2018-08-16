@@ -1,14 +1,14 @@
-import {IModel} from './model';
-import {IUserImage} from './user-image';
-import {IUserSetting} from './user-setting';
-import {ICompany} from './company';
-import {IBranchOffice} from './branch-office';
-import {IPoint} from './point';
-import {IMembershipPayment} from './membership-payment';
-import {IIncentiveHistory} from './incentive-history';
-import {IMileageOfMonth} from './mileage-of-month';
-import {IPointOfMonth} from './point-of-month';
-import {ISalesItem} from './sales-item';
+import { IModel } from './model';
+import { IUserImage } from './user-image';
+import { IUserSetting } from './user-setting';
+import { ICompany } from './company';
+import { IBranchOffice } from './branch-office';
+import { IPoint } from './point';
+import { IMembershipPayment } from './membership-payment';
+import { IIncentiveHistory } from './incentive-history';
+import { IMileageOfMonth } from './mileage-of-month';
+import { IPointOfMonth } from './point-of-month';
+import { ISalesItem } from './sales-item';
 import { IUserAddressBook } from './user-address-book';
 
 export declare type TRole =

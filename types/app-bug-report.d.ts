@@ -1,5 +1,5 @@
-import {IModel} from './model';
-import {IUser} from './user';
+import { IModel } from './model';
+import { IUser } from './user';
 
 export interface IAppBugReport extends IModel {
   readonly id?: number;

@@ -1,4 +1,4 @@
-import {ISales} from './sales';
+import { ISales } from './sales';
 
 export interface ISalesBox {
   readonly id?: number;

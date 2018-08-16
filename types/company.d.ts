@@ -1,5 +1,5 @@
-import {IUser} from './user';
-import {IBizLicense} from './biz-license';
+import { IUser } from './user';
+import { IBizLicense } from './biz-license';
 
 export declare type TBizClass =
   'personal'        // 개인사업자

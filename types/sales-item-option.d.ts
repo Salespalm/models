@@ -1,5 +1,5 @@
-import {ISalesItem} from './sales-item';
-import {ISalesItemOptionImage} from './sales-item-option-image';
+import { ISalesItem } from './sales-item';
+import { ISalesItemOptionImage } from './sales-item-option-image';
 
 export interface ISalesItemOption {
   readonly id?: number;

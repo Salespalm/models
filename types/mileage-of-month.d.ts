@@ -1,4 +1,4 @@
-import {IModel} from './model';
+import { IModel } from './model';
 
 export interface IMileageOfMonth extends IModel {
   readonly id?: number;

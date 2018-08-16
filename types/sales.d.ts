@@ -1,9 +1,9 @@
-import {IModel} from './model';
-import {IUser} from './user';
-import {ISalesItem} from './sales-item';
+import { IModel } from './model';
+import { IUser } from './user';
+import { ISalesItem } from './sales-item';
 
 export declare type TSalesStatus =
-  'stand_by'        // 영업 대기 상태
+    'stand_by'        // 영업 대기 상태
   | 'cancel'        // 영업 취소 상태 - 중개인에 의해서 취소됨
   | 'progression'   // 영업 진행 상태
   | 'payment_wait'  // 영업 수수료 결제 대기 상태
@@ -27,15 +27,15 @@ export interface ISalesCounter {
 }
 
 // 영업에 대한 계산서 항목
-export interface ISalesBill {
-  id?: number;
-
-  name: string;   // 항목 이름
-  price: number;  // 가격
-
-  // foreign keys
-  salesId?: number;
-}
+// export interface ISalesBill {
+//   id?: number;
+//
+//   name: string;   // 항목 이름
+//   price: number;  // 가격
+//
+//   // foreign keys
+//   salesId?: number;
+// }
 
 // 영수증 정보
 export interface ISalesReceipt {
@@ -74,6 +74,6 @@ export interface ISales extends IModel {
   from?: IUser;             // 영업을 신청한 (중개)회원 정보
   to?: IUser;               // 영업을 신청받은 (업체)회원 정보
   item?: ISalesItem;        // 영업에 대한 상품 정보
-  bills?: ISalesBill[];     // 영업 성사에 따른 소비자 구매 내역 정보들
+  // bills?: ISalesBill[];     // 영업 성사에 따른 소비자 구매 내역 정보들
   receipt?: ISalesReceipt;  // 영수증 정보
 }

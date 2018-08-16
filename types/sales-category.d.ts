@@ -1,5 +1,5 @@
-import {ISalesItem} from './sales-item';
-import {ICategory} from './category';
+import { ISalesItem } from './sales-item';
+import { ICategory } from './category';
 
 export interface ISalesCategoryLv1 extends ICategory {
   // associations

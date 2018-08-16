@@ -1,4 +1,4 @@
-import {IModel} from './model';
+import { IModel } from './model';
 
 export interface IPointOfMonth extends IModel {
   readonly id?: number;

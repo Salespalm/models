@@ -1,5 +1,5 @@
-import {IUser} from './user';
-import {IModel} from './model';
+import { IUser } from './user';
+import { IModel } from './model';
 
 export interface IBranchOffice extends IModel {
   readonly id?: number;

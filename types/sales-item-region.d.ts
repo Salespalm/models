@@ -1,5 +1,5 @@
-import {IModel} from './model';
-import {ISalesItem} from './sales-item';
+import { IModel } from './model';
+import { ISalesItem } from './sales-item';
 
 export interface ISalesItemRegion extends IModel {
   readonly id?: number;

@@ -1,4 +1,4 @@
-import {IImage} from './image';
+import { IImage } from './image';
 
 export interface ISalesItemImage extends IImage {
   sequence?: number;

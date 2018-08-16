@@ -1,6 +1,6 @@
-import {IModel} from './model';
-import {IUser} from './user';
-import {ISales} from './sales';
+import { IModel } from './model';
+import { IUser } from './user';
+import { ISales } from './sales';
 
 export declare type TSalesPaymentMethod =
   'account_transfer'; // 무통장 입금
