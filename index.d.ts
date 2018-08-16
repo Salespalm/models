@@ -24,7 +24,6 @@ export * from './types/notice-image';
 export * from './types/open-palm';
 export * from './types/open-palm-reply';
 export * from './types/payment-info';
-export * from './types/payment-method';
 export * from './types/point';
 export * from './types/point-of-month';
 export * from './types/region';
