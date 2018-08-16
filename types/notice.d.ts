@@ -8,6 +8,7 @@ export interface INotice extends IModel {
 
   title: string;
   content: string;
+  display: boolean;
 
   // associations
   images: INoticeImage[];
