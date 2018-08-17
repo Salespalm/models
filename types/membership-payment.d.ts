@@ -22,6 +22,9 @@ export interface IMembershipPayment extends IModel {
   payedDate?: Date;
   refundDeadline?: Date;
 
+  // extra fields
+  canRefund?: boolean;
+
   // foreign keys
   userId?: number;
   settingId?: number;

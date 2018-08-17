@@ -63,6 +63,9 @@ export interface ISales extends IModel {
   totalCommissionWithVAT?: number;  // 수수료 지급 총액(VAT 포함)
   totalCommission?: number;     // 수수료 지급 총액(VAT 미포함, 이 값으로 포인트와 마일리지 분배)
 
+  // extra fields
+  canRefund?: boolean;
+
   // foreign keys
   fromId?: number;    // 중개인 회원 아이디
   toId?: number;      // 업체 회원 아이디
