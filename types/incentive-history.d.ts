@@ -38,7 +38,6 @@ export interface IIncentiveHistory {
   history: TIncentiveHistory;       // 히스토리 내역
   status: TIncentiveHistoryStatus;  // 보상 지급 상태
   payoff?: Date;                    // 포인트 또는 마일리지 지급일
-  payedDate?: Date;                 // 실 지급일
 
   // foreign keys
   toId?: number;

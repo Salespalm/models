@@ -1,6 +1,7 @@
 import { IModel } from './model';
 import { IUser } from './user';
 import { ISalesItem } from './sales-item';
+import { IIncentiveHistory } from './incentive-history';
 
 export declare type TSalesStatus =
     'stand_by'        // 영업 대기 상태
@@ -65,6 +66,7 @@ export interface ISales extends IModel {
 
   // extra fields
   canRefund?: boolean;
+  incentiveHistory?: IIncentiveHistory;
 
   // foreign keys
   fromId?: number;    // 중개인 회원 아이디
