@@ -1,6 +1,5 @@
 import { IModel } from './model';
 import { INoticeImage } from './notice-image';
-import { INoticeContentImage } from './notice-content-image';
 
 export interface INotice extends IModel {
   readonly id?: number;
@@ -11,6 +10,5 @@ export interface INotice extends IModel {
   display: boolean;
 
   // associations
-  images: INoticeImage[];
-  contentImages: INoticeContentImage[];
+  image: INoticeImage;
 }

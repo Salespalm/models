@@ -1,6 +1,6 @@
-export interface INoticeContentImage {
-  url: string;
+import { IUrlLike } from './file';
 
+export interface INoticeContentImage extends IUrlLike {
   // foreign keys
   noticeId?: number;
 }
