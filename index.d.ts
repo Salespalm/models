@@ -8,6 +8,7 @@ export * from './types/company';
 export * from './types/favorite-sales-item';
 export * from './types/fcm-message';
 export * from './types/file';
+export * from './types/iamport';
 export * from './types/image';
 export * from './types/incentive';
 export * from './types/incentive-history';
