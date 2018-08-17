@@ -12,10 +12,8 @@ export interface IMembershipPayment extends IModel, IIamportModel {
 
   membership: TMembership;
   price: number;
-  cash?: number;
   point?: number;
   recommenderMileage?: number;
-  payer?: string;
   period?: [Date ,Date];
   expired?: boolean;
   status?: TMembershipPaymentStatus;
