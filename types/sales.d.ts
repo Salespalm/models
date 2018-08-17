@@ -2,6 +2,7 @@ import { IModel } from './model';
 import { IUser } from './user';
 import { ISalesItem } from './sales-item';
 import { IIncentiveHistory } from './incentive-history';
+import { ISalesReview } from './sales-review';
 
 export declare type TSalesStatus =
     'stand_by'        // 영업 대기 상태
@@ -65,8 +66,8 @@ export interface ISales extends IModel {
   totalCommission?: number;     // 수수료 지급 총액(VAT 미포함, 이 값으로 포인트와 마일리지 분배)
 
   // extra fields
-  canRefund?: boolean;
-  incentiveHistory?: IIncentiveHistory;
+  // canRefund?: boolean;
+  // incentiveHistory?: IIncentiveHistory;
 
   // foreign keys
   fromId?: number;    // 중개인 회원 아이디
@@ -79,6 +80,6 @@ export interface ISales extends IModel {
   from?: IUser;             // 영업을 신청한 (중개)회원 정보
   to?: IUser;               // 영업을 신청받은 (업체)회원 정보
   item?: ISalesItem;        // 영업에 대한 상품 정보
-  // bills?: ISalesBill[];     // 영업 성사에 따른 소비자 구매 내역 정보들
+  review?: ISalesReview;    // 영업에 대한 리뷰정보
   receipt?: ISalesReceipt;  // 영수증 정보
 }
