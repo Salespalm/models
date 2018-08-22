@@ -11,7 +11,7 @@ export interface IMembershipPayment extends IModel, IIamportModel {
   readonly createdAt?: Date;
 
   membership: TMembership;
-  price: number;
+  price?: number;
   point?: number;
   recommenderMileage?: number;
   period?: [Date ,Date];
