@@ -1,7 +1,6 @@
 import { IModel } from './model';
 import { IUser } from './user';
 import { ISales } from './sales';
-import { IPaymentInfo } from './payment-info';
 import { IIamportModel } from './iamport';
 
 export declare type TSalesPaymentStatus =
