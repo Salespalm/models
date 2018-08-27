@@ -10,5 +10,5 @@ export interface INotice extends IModel {
   display: boolean;
 
   // associations
-  image: INoticeImage;
+  image?: INoticeImage;
 }

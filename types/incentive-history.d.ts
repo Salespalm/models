@@ -21,12 +21,13 @@ export declare type TIncentiveHistoryRefModelName =
   | 'Sales';  // ISales 모델(DB 에서는 Sales 모델)
 
 export interface IIncentiveHistoryRef {
+  readonly id?: number;
   modelName: TIncentiveHistoryRefModelName; // 모델의 이름
   refId: number;                            // DB 에서 연결된 외래키의 아이디
 }
 
 export interface IIncentiveHistory {
-  readonly id?: number;
+  readonly id?: string;
   readonly createdAt?: Date;
 
   pointBeforeTax?: number;          // 세금 지급 전 포인트

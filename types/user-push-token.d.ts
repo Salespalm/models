@@ -5,5 +5,5 @@ export interface IUserPushToken {
   platform: TPlatform;
 
   // foreign keys
-  userId: number;
+  userId?: number;
 }

@@ -13,6 +13,6 @@ export interface IOpenPalmReply {
   fromId?: number;
 
   // associations
-  openPalm: IOpenPalm;
+  openPalm?: IOpenPalm;
   from?: IUser;
 }
