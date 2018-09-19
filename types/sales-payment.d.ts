@@ -17,7 +17,7 @@ export interface ISalesPayment extends IModel, IIamportModel {
   cash?: number;                  // 실 결제가
   payer?: string;
   status?: TSalesPaymentStatus;   // 결제 진행 상태
-  paymentInfo: IPaymentInfo;      // 결제 정보
+  paymentInfo?: IPaymentInfo;      // 결제 정보
   dueDate?: Date;                 // 결제 기한
   payedDate?: Date;               // 실 결제일
 
