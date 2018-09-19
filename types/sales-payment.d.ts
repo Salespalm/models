@@ -2,6 +2,7 @@ import { IModel } from './model';
 import { IUser } from './user';
 import { ISales } from './sales';
 import { IIamportModel } from './iamport';
+import { IPaymentInfo } from './payment-info';
 
 export declare type TSalesPaymentStatus =
     'payment_wait'      // 결제 대기 상태
@@ -13,7 +14,10 @@ export interface ISalesPayment extends IModel, IIamportModel {
   readonly createdAt?: Date;
   price?: number;                 // 결제 금액
   point?: number;                 // 포인트에 의한 결제가
+  cash?: number;                  // 실 결제가
+  payer?: string;
   status?: TSalesPaymentStatus;   // 결제 진행 상태
+  paymentInfo: IPaymentInfo;      // 결제 정보
   dueDate?: Date;                 // 결제 기한
   payedDate?: Date;               // 실 결제일
 
