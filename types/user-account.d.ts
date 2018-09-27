@@ -1,7 +1,7 @@
 import { IModel } from './model';
 import { IAccount } from './account';
 
-export interface ISalesItemAccount extends IModel, IAccount {
+export interface IUserAccount extends IModel, IAccount {
   // foreign keys
-  itemId?: number;
+  userId?: number;
 }

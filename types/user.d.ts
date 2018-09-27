@@ -10,6 +10,7 @@ import { IMileageOfMonth } from './mileage-of-month';
 import { IPointOfMonth } from './point-of-month';
 import { ISalesItem } from './sales-item';
 import { IUserAddressBook } from './user-address-book';
+import { IUserAccount } from './user-account';
 
 export declare type TRole =
   'admin'             // 관리자
@@ -20,7 +21,7 @@ export declare type TRole =
   | 'branch_office'   // 지사회원
   | 'staff';          // 직원
 
-export declare type TAuthorization = 'email' | 'self';
+export declare type TAuthorization = 'email' | 'self' | 'account';
 export declare type TSex = 'M' | 'F';
 
 export interface IUser extends IModel {
@@ -59,4 +60,5 @@ export interface IUser extends IModel {
   favorite?: ISalesItem;
   favorites?: ISalesItem[];
   addresses?: IUserAddressBook[];
+  account?: IUserAccount;
 }

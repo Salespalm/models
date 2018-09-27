@@ -1,3 +1,4 @@
+export * from './types/account';
 export * from './types/address';
 export * from './types/app-bug-report';
 export * from './types/biz-license';
@@ -50,6 +51,7 @@ export * from './types/salespalm-message';
 export * from './types/simple-response';
 export * from './types/sms-authorization';
 export * from './types/user';
+export * from './types/user-account';
 export * from './types/user-address-book';
 export * from './types/user-image';
 export * from './types/user-message';
