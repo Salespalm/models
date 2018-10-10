@@ -4,14 +4,14 @@ import { IUser } from './user';
 export declare type TUserIdentificationStatus = 'wait' | 'reject' | 'confirm';
 
 export interface IUserIdentification extends IUrlLike {
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt?: Date;
+  updatedAt?: Date;
 
-  status: TUserIdentificationStatus;
+  status?: TUserIdentificationStatus;
 
   // foreign keys
-  userId: number;
+  userId?: number;
 
   // associations
-  user: IUser;
+  user?: IUser;
 }
