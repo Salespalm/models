@@ -14,6 +14,7 @@ import { IUserAccount } from './user-account';
 import { IUserIdentification } from './user-identification';
 import { ISalesBox } from './sales-box';
 import { IUserPushToken } from './user-push-token';
+import { IOpenPalm } from './open-palm';
 
 export declare type TRole =
   'admin'             // 관리자
@@ -66,6 +67,7 @@ export interface IUser extends IModel {
   incentiveHistories?: IIncentiveHistory[];
   items?: ISalesItem[];
   membershipPayments?: IMembershipPayment[];
+  openPalms?: IOpenPalm[];
   pushTokens?: IUserPushToken[];
   recommendees?: IUser[];
   settings?: IUserSetting[];
