@@ -53,6 +53,7 @@ export * from './types/sms-authorization';
 export * from './types/user';
 export * from './types/user-account';
 export * from './types/user-address-book';
+export * from './types/user-identification';
 export * from './types/user-image';
 export * from './types/user-message';
 export * from './types/user-push-token';
