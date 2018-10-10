@@ -12,6 +12,8 @@ import { ISalesItem } from './sales-item';
 import { IUserAddressBook } from './user-address-book';
 import { IUserAccount } from './user-account';
 import { IUserIdentification } from './user-identification';
+import { ISalesBox } from './sales-box';
+import { IUserPushToken } from './user-push-token';
 
 export declare type TRole =
   'admin'             // 관리자
@@ -47,20 +49,24 @@ export interface IUser extends IModel {
   recommenderId?: number;
 
   // associations
-  image?: IUserImage;
-  settings?: IUserSetting[];
-  company?: ICompany;
-  branchOffice?: IBranchOffice;
-  recommender?: IUser;
-  recommendees?: IUser[];
-  point?: IPoint;
-  membershipPayments?: IMembershipPayment[];
-  incentiveHistories?: IIncentiveHistory[];
-  mileageOfMonth?: IMileageOfMonth;
-  pointOfMonth?: IPointOfMonth;
-  favorite?: ISalesItem;
-  favorites?: ISalesItem[];
-  addresses?: IUserAddressBook[];
   account?: IUserAccount;
+  box?: ISalesBox;
+  branchOffice?: IBranchOffice;
+  company?: ICompany;
+  favorite?: ISalesItem;
   identification?: IUserIdentification;
+  image?: IUserImage;
+  mileageOfMonth?: IMileageOfMonth;
+  point?: IPoint;
+  pointOfMonth?: IPointOfMonth;
+  recommender?: IUser;
+
+  addresses?: IUserAddressBook[];
+  favorites?: ISalesItem[];
+  incentiveHistories?: IIncentiveHistory[];
+  items?: ISalesItem[];
+  membershipPayments?: IMembershipPayment[];
+  pushTokens?: IUserPushToken[];
+  recommendees?: IUser[];
+  settings?: IUserSetting[];
 }
