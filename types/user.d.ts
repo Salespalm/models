@@ -11,6 +11,7 @@ import { IPointOfMonth } from './point-of-month';
 import { ISalesItem } from './sales-item';
 import { IUserAddressBook } from './user-address-book';
 import { IUserAccount } from './user-account';
+import { IUserIdentification } from './user-identification';
 
 export declare type TRole =
   'admin'             // 관리자
@@ -61,4 +62,5 @@ export interface IUser extends IModel {
   favorites?: ISalesItem[];
   addresses?: IUserAddressBook[];
   account?: IUserAccount;
+  identification?: IUserIdentification;
 }
