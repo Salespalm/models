@@ -43,6 +43,7 @@ export interface IUser extends IModel {
   name: string;
   nickname: string;
   mobile?: string;
+  birth?: Date;
   sex?: TSex;
   withdraw?: boolean;
 
