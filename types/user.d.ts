@@ -25,7 +25,7 @@ export declare type TRole =
   | 'branch_office'   // 지사회원
   | 'staff';          // 직원
 
-export declare type TAuthorization = 'email' | 'self' | 'processing' | 'account';
+export declare type TAuthorization = 'email' | 'self' | 'account' | 'process self' ;
 export declare type TSex = 'M' | 'F';
 
 export interface IUser extends IModel {
