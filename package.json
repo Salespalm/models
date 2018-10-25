@@ -1,6 +1,6 @@
 {
   "name": "@salespalm/models",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "Models for Salespalm",
   "main": "index.d.ts",
   "scripts": {
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/Salespalm/models/issues"
   },
-  "homepage": "https://github.com/Salespalm/models#readme"
+  "homepage": "https://github.com/Salespalm/models#readme",
+  "dependencies": {}
 }

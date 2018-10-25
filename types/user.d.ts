@@ -10,7 +10,7 @@ import { IMileageOfMonth } from './mileage-of-month';
 import { IPointOfMonth } from './point-of-month';
 import { ISalesItem } from './sales-item';
 import { IUserAddressBook } from './user-address-book';
-import { IUserAccount } from './user-account';
+import { IUserBankAccount } from './user-bank-account';
 import { IUserIdentification } from './user-identification';
 import { ISalesBox } from './sales-box';
 import { IUserPushToken } from './user-push-token';
@@ -25,7 +25,14 @@ export declare type TRole =
   | 'branch_office'   // 지사회원
   | 'staff';          // 직원
 
-export declare type TAuthorization = 'email' | 'self' | 'account' | 'process self' ;
+export declare type TAuthorization =
+  'email'
+  | 'self'
+  | 'account'
+  | 'process email'
+  | 'process self'
+  | 'process account';
+
 export declare type TSex = 'M' | 'F';
 
 export interface IUser extends IModel {
@@ -51,7 +58,7 @@ export interface IUser extends IModel {
   recommenderId?: number;
 
   // associations
-  account?: IUserAccount;
+  bankAccount?: IUserBankAccount;
   box?: ISalesBox;
   branchOffice?: IBranchOffice;
   company?: ICompany;

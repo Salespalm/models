@@ -1,4 +1,4 @@
-export interface IAccount {
+export interface IBankAccount {
   id?: number;
   createdAt?: Date;
 
