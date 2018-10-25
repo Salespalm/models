@@ -28,10 +28,10 @@ export declare type TRole =
 export declare type TAuthorization =
   'email'
   | 'self'
-  | 'account'
+  | 'bank account'
   | 'process email'
   | 'process self'
-  | 'process account';
+  | 'process bank account';
 
 export declare type TSex = 'M' | 'F';
 
