@@ -35,11 +35,13 @@ export declare type TMessageType =
    * 결제 관련
    */
   'payment-regular' |   // 정회원 구입 -> 구입한 회원에게
-  'payment-sales' |
+  'payment-sales' |     // 수수료 결제 -> 업체회원에게
 
   /**
    * 인증 관련
    */
-  'request-identification' |
-  'reject-identification' |
-  'confirm-identification';      // 수수료 결제 -> 업체회원에게
+  'request-identification' |  // 신분증 인증 요청
+  'reject-identification' |   // 신분증 본인 인증 거절
+  'confirm-identification' |  // 신분증 본인 인증 승인
+  'reject-bank-account' |     // 은행 계좌 인증 거절
+  'confirm-bank-account';     // 은행 계좌 인증 승인
