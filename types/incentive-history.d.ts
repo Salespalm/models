@@ -6,13 +6,14 @@ export declare type TIncentiveHistory =
   | 'franchise_sales_mileage'     // 가맹 추천인에 의한 마일리지
   | 'regular_mileage'             // 정회원 구매 시 추천 1대에게 주는 마일리지
   | 'bonus_mileage'               // 보너스 마일리지
-  | 'cashback';                   // 포인트를 현금으로 전환
+  | 'withdrawal';                 // 포인트 출금
 
 export declare type TIncentiveHistoryStatus =
   'payment_wait'    // 업체 수수료 결제 대기 상태
-  | 'stand_by'      // 수수료 결제 후 포인트 지급 대기 상태
+  | 'stand_by'      // 수수료 결제 후 포인트 지급 대기 상태, 포인트 출금 대기 상태
   | 'not_regular'   // 정회원이 아니기 때문에 받지 못한 상태
-  | 'completion'    // 포인트 및 마일리지 지급 완료 상태
+  | 'completion'    // 포인트 및 마일리지 지급 완료 상태, 포인트 출금 완료
+  | 'rejection'     // 포인트 출금 거절
   | 'request_refund'// 환불 요청 상태
   | 'refund';       // 환불 상태
 

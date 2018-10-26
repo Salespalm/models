@@ -58,7 +58,6 @@ export * from './types/user-image';
 export * from './types/user-message';
 export * from './types/user-push-token';
 export * from './types/user-setting';
-export * from './types/user-withdrawal';
 export * from './types/user-withdrawal-setting';
 export * from './types/version';
 export * from './types/params';
