@@ -44,4 +44,10 @@ export declare type TMessageType =
   'reject-identification' |   // 신분증 본인 인증 거절
   'confirm-identification' |  // 신분증 본인 인증 승인
   'reject-bank-account' |     // 은행 계좌 인증 거절
-  'confirm-bank-account';     // 은행 계좌 인증 승인
+  'confirm-bank-account' |     // 은행 계좌 인증 승인
+
+  /**
+   * 출금 관련
+   */
+  'confirm-withdrawal' |    // 출금 완료
+  'reject-withdrawal';      // 출금 실패
