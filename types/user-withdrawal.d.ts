@@ -1,6 +1,6 @@
 import { IUser } from './user';
 
-export declare type TUserWithdrawalStatus = 'wait' | 'reject' | 'confirm';
+export declare type TUserWithdrawalStatus = 'wait' | 'cancel' | 'reject' | 'confirm';
 
 export interface IUserWithdrawal {
   id?: string;
