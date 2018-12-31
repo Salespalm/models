@@ -35,6 +35,7 @@ export declare type TMessageType =
    * 결제 관련
    */
   'payment-regular' |   // 정회원 구입 -> 구입한 회원에게
+  'auto-point-payment-regular' | // 포인트를 이용한 정회원권 자동 구입 -> 구입한 회원에게
   'payment-sales' |     // 수수료 결제 -> 업체회원에게
 
   /**
