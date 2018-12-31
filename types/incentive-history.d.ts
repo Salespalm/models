@@ -5,7 +5,9 @@ export declare type TIncentiveHistory =
   | 'recommender_sales_mileage'   // 중개 추천인에 의한 마일리지
   | 'franchise_sales_mileage'     // 가맹 추천인에 의한 마일리지
   | 'regular_mileage'             // 정회원 구매 시 추천 1대에게 주는 마일리지
-  | 'bonus_mileage'               // 보너스 마일리지
+  | 'bonus_mileage_to_point'      // 보너스 마일리지를 포인트로 전환
+  | 'mileage_to_point'            // 마일리지를 포이트로 전환
+  | 'regular_payment'             // 포인트를 이용한 정회원권 구매
   | 'withdrawal';                 // 포인트 출금
 
 export declare type TIncentiveHistoryStatus =

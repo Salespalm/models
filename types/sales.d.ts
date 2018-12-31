@@ -63,7 +63,8 @@ export interface ISales extends IModel {
   totalPrice?: number;    // 총 영업 거래 금액
 
   totalCommissionWithVAT?: number;  // 수수료 지급 총액(VAT 포함)
-  totalCommission?: number;     // 수수료 지급 총액(VAT 미포함, 이 값으로 포인트와 마일리지 분배)
+  totalCommission?: number;         // 수수료 지급 총액(VAT 미포함, 이 값으로 포인트와 마일리지 분배)
+  refundDeadline?: Date;            // 해당 영업에 대한 환불 가능 기간
 
   // extra fields
   // canRefund?: boolean;

@@ -1,6 +1,6 @@
 {
   "name": "@salespalm/models",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "description": "Models for Salespalm",
   "main": "index.d.ts",
   "scripts": {
