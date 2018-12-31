@@ -5,7 +5,13 @@ export declare type TMessageType =
   'join-company' |        // 업체 가입 -> 관리자에게
   'add-recommendee' |     // 추천가입 -> 추천인에게
   'allow-company' |       // 회사 승인 -> 업체회원에게
+
+  /** 회원권 관련
+   *
+   */
   'regular-recommendee' | // 추천인이 정회원이 되었을 때
+  'regular-expired' |     // 정회원권 만료
+
 
   /**
    * 상품 관련
